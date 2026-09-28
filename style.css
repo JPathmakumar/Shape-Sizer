@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(55, 145, 149, 1) 15%, rgba(87, 199, 133, 1) 50%, rgba(118, 204, 123, 1) 60%, rgba(169, 211, 106, 1) 77%, rgba(237, 221, 83, 1) 100%);
+    font-family: Lato, sans-serif;
+}
+
+h1, h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato, sans-serif;
+}

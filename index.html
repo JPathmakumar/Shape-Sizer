@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shape Sizer</title>
+</head>
+<body>
+
+    <h1>Shape Sizer</h1>
+    <h4>Please choose a shape and enter your desired width and height.</h4>
+
+    <center>
+        <button onclick="chooseRectangle()">Draw Rectangle</button>
+        <button onclick="chooseCircle()">Draw Circle</button>
+        <button onclick="chooseTriangle()">Draw Triangle</button>
+    </center>
+
+    <br>
+
+    <center>
+        <h3 id="selectedShape">Selected Shape: None</h3>
+
+        <label for="width">Enter Width:</label>
+        <input type="number" id="width" placeholder="Width" min="1">
+
+        <br><br>
+
+        <label for="height">Enter Height:</label>
+        <input type="number" id="height" placeholder="Height" min="1">
+
+        <br><br>
+
+        <button onclick="drawShape()">Draw Shape</button>
+
+        <p id="message"></p>
+
+        <canvas id="myCanvas" width="400" height="400"
+            style="border:1px solid #000;">
+        </canvas>
+    </center>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
